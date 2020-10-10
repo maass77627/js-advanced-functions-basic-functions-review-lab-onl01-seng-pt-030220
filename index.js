@@ -12,6 +12,6 @@ function mondayWork(event="go to the office") {
 
 function wrapAdjective(flair="*") {
   return function(string="special") {
-    return `You are ${flair} ${string} ${flair}.`
+    return `You are ${flair} ${string} ${flair}!`
   }
 }

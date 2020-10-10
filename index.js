@@ -15,3 +15,9 @@ function wrapAdjective(flair="*") {
     return `You are ${flair}${string}${flair}!`
   }
 }
+
+let calculator = {
+  function add() {
+    return "1 + 3"
+  }
+}
